@@ -1,0 +1,82 @@
+<!doctype html> 
+<html> 
+
+<head> 
+	<title> Belajar website AWAL </title>
+	<style> 
+		h1{color:blue; text-align:center;}
+		body{background:#A9A9A9; 
+		      font-family:sans-serif; }
+
+		div { height : 100px;
+			width : 200px;
+			border : 2px solid yellow;
+			
+		}
+		
+		
+		.box1 {background:pink;}
+		.box2 {background:white;}
+
+		button:hover{background-color: red;}
+
+          </style>
+
+		
+</head>
+
+<body>
+	<h1> Heading, Belajar Website mUla-mula </h1>
+
+	<p> <b>Belajar koding menyenangkan dan mengasyikkan </b>  </p>
+
+	<p> Ini adalah <i>paragaraf</i> kedua </p>
+
+	<ul> 
+		<li>Mobil	</li>
+		<li>	Motor</li>
+		<li>	Rumah</li>
+	</ul>
+
+	<div class="box1">  <p>box-1 </P>     </div>
+	<br>
+	<div class="box2"> <p>box-2 </P>    </div>
+	
+<br>
+<br>
+
+	<input id="nama"  type="text" > <br><br>
+	<button onclick="Sapa()"> SAy Hello </button> <br><br>
+	<button onclick ="Pilihan()">YES</button>  &nbsp; &nbsp; <button>NO</button> 
+
+
+</body>
+
+
+<footer>
+
+<p> &copy; Copyright 2023 Frando </p>
+</footer>
+
+		<script>     
+			function Sapa() {
+				let hello = document.getElementById("nama")
+				window.alert("Hello World! "  + hello.value);
+			}
+
+			function Pilihan(){
+				window.alert("Pilihan YES")}
+		</script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
